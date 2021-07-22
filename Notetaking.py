@@ -1,5 +1,5 @@
 print("\n\n            THE NOTETAKING Application..........")
-user_input = input("\nEnter The Mode For Which You Want To Open The File Write(i.e read , write , append) :")
+user_input = input("\nEnter The Mode For Which You Want To Open The File(i.e read , write , append) :")
 if(user_input=="write"):
     notes=open('Notepad.txt','w')
     n=int(input("\nHow Many Notes You Want to add ? =>"))
